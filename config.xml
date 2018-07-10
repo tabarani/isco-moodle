@@ -155,9 +155,9 @@
         <param name="ANDROID_SUPPORT_VERSION" value="27.1.0" />
             </gap:plugin>
         
-    <gap:config-file platform="android" parent="/manifest">
+ <!-->   <gap:config-file platform="android" parent="/manifest">
          <application android:debuggable="true" />
-    </gap:config-file>
+    </gap:config-file>-->
 
 
 
