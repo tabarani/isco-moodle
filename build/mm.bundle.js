@@ -71967,7 +71967,7 @@ angular.module('mm.core')
     
     "gcmpn": "694767596569",
     "customurlscheme": "moodlemobile",
-    "siteurl": "www.d2el.com",
+    "siteurl": "https://d2el.com",
     "multisitesdisplay": "select",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "false",
