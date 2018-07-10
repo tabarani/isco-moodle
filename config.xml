@@ -148,8 +148,8 @@
     <gap:plugin name="ionic-plugin-keyboard" source="npm"  />
     <gap:plugin name="cordova-plugin-zip" source="npm" />
     <gap:plugin name="cordova-plugin-local-notifications-mm" source="npm" />
-    <gap:plugin name="net.tunts.webintent" spec="https://github.com/Tunts/WebIntent.git" source="git" />
-    <gap:plugin name="ch.ti8m.documenthandler" spec="https://github.com/ti8m/DocumentHandler.git" source="git" />
+    <!--<gap:plugin name="net.tunts.webintent" spec="https://github.com/Tunts/WebIntent.git" source="git" />
+    <gap:plugin name="ch.ti8m.documenthandler" spec="https://github.com/ti8m/DocumentHandler.git" source="git" /> -->
 
         <gap:plugin name="cordova-android-support-gradle-release" source="npm" >
         <param name="ANDROID_SUPPORT_VERSION" value="27.1.0" />
