@@ -15604,10 +15604,10 @@ angular.module('mm.core.courses')
                             name: $translate.instant('mm.courses.allowguests'),
                             icon: 'ion-person'
                         });
-                    } else if (instance === 'paypal') {
+                    } else if (instance === 'paybank') {
                         course.enrollment.push({
-                            name: $translate.instant('mm.courses.paypalaccepted'),
-                            img: 'img/icons/paypal.png'
+                            name: $translate.instant('mm.courses.paybankaccepted'),
+                            img: 'img/icons/paybank.png'
                         });
                     }
                 });
@@ -15951,7 +15951,7 @@ angular.module('mm.core.courses')
         waitStart = 0,
         enrolUrl = $mmFS.concatenatePaths($mmSite.getURL(), 'enrol/index.php?id=' + course.id),
         courseUrl = $mmFS.concatenatePaths($mmSite.getURL(), 'course/view.php?id=' + course.id),
-        paypalReturnUrl = $mmFS.concatenatePaths($mmSite.getURL(), 'enrol/paypal/return.php'),
+        paybankReturnUrl = $mmFS.concatenatePaths($mmSite.getURL(), 'enrol/paybank/return.php'),
         inAppLoadListener,
         inAppFinishListener,
         inAppExitListener,
@@ -16156,10 +16156,10 @@ angular.module('mm.core.courses')
             });
         }
     }
-    if (course.enrollmentmethods && course.enrollmentmethods.indexOf('paypal') > -1) {
-        $scope.paypalEnabled = true;
-        $scope.paypalEnrol = function() {
-            var hasReturnedFromPaypal = false;
+    if (course.enrollmentmethods && course.enrollmentmethods.indexOf('paybank') > -1) {
+        $scope.paybankEnabled = true;
+        $scope.paybankEnrol = function() {
+            var hasReturnedFrompaybank = false;
             stopListeners();
             $mmSite.openInAppWithAutoLogin(enrolUrl);
             inAppLoadListener = $rootScope.$on('$cordovaInAppBrowser:loadstart', urlLoaded);
@@ -16181,9 +16181,9 @@ angular.module('mm.core.courses')
                 appResumeListener && appResumeListener();
             }
             function urlLoaded(e, event) {
-                if (event.url.indexOf(paypalReturnUrl) != -1) {
-                    hasReturnedFromPaypal = true;
-                } else if (event.url.indexOf(courseUrl) != -1 && hasReturnedFromPaypal) {
+                if (event.url.indexOf(paybankReturnUrl) != -1) {
+                    hasReturnedFrompaybank = true;
+                } else if (event.url.indexOf(courseUrl) != -1 && hasReturnedFrompaybank) {
                     inAppClosed();
                     $mmUtil.closeInAppBrowser();
                 }

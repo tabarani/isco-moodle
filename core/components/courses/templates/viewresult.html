@@ -32,12 +32,12 @@
                     <p class="item-heading">{{ instance.name }}</p>
                     <button class="button button-block" ng-click="enrol(instance.id, enroldata.password)">{{ 'mm.courses.enrolme' | translate }}</button>
                 </div>
-                <div class="item item-text-wrap" ng-if="!isEnrolled && paypalEnabled">
-                    <p class="item-heading ">{{ 'mm.courses.paypalaccepted' | translate }}</p>
+                <div class="item item-text-wrap" ng-if="!isEnrolled && paybankEnabled">
+                    <p class="item-heading ">{{ 'mm.courses.paybankaccepted' | translate }}</p>
                     <p>{{ 'mm.core.paymentinstant' | translate }}</p>
-                    <button class="button button-block" ng-click="paypalEnrol()">{{ 'mm.courses.sendpaymentbutton' | translate }}</button>
+                    <button class="button button-block" ng-click="paybankEnrol()">{{ 'mm.courses.sendpaymentbutton' | translate }}</button>
                 </div>
-                <div class="item" ng-if="!isEnrolled && !selfEnrolInstances.length && !paypalEnabled">
+                <div class="item" ng-if="!isEnrolled && !selfEnrolInstances.length && !paybankEnabled">
                     <p>{{ 'mm.courses.notenrollable' | translate }}</p>
                 </div>
                 <a class="item item-icon-left" ng-if="handlersShouldBeShown" ng-click="prefetchCourse()">

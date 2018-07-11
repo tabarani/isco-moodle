@@ -408,7 +408,7 @@
     "mm.courses.notenroled": "أنت لست مسجلاً كطالب في هذا المقرر",
     "mm.courses.password": "كلمة المرور",
     "mm.courses.paymentrequired": "هذا المقرر الدراسي غير مجانين لذا يجب دفع القيمة للدخول.",
-    "mm.courses.paypalaccepted": "تم قبول التبرع المدفوع",
+    "mm.courses.paybankaccepted": "تم قبول التبرع المدفوع",
     "mm.courses.search": "بحث",
     "mm.courses.searchcourses": "بحث مقررات دراسية",
     "mm.courses.sendpaymentbutton": "ارسل القيمة المدفوعة عن طريق التبرع",

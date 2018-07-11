@@ -212,7 +212,7 @@
     "mm.courses.notenroled": "이 강좌에 등록되지 않았습니다.",
     "mm.courses.password": "비밀번호",
     "mm.courses.paymentrequired": "이 강좌는 수강하기 위해 등록금이 필요합니다.",
-    "mm.courses.paypalaccepted": "PayPal 지불 접수됨",
+    "mm.courses.paybankaccepted": "paybank 지불 접수됨",
     "mm.courses.search": "검색",
     "mm.courses.searchcourses": "강좌 찾기",
     "mm.courses.sendpaymentbutton": "페이팔을 통해 송금하기",
