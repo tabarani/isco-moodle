@@ -1,7 +1,7 @@
 {
     "app_id" : "com.desire.elearning",
     "appname": "UST",
-    "desktopappname": "D2EL Desktop",
+    "desktopappname": "UST Desktop",
     "versioncode" : "2023",
     "versionname" : "3.4.2",
     "cache_expiration_time" : 300000,
