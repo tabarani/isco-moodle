@@ -71967,7 +71967,7 @@ angular.module('mm.core')
     
     "gcmpn": "694767596569",
     "customurlscheme": "moodlemobile",
-    "siteurl": "https://http://www.ust-elearning.net/",
+    "siteurl": "https://www.ust-elearning.net/",
     "multisitesdisplay": "select",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "false",
