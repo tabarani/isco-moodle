@@ -22,7 +22,6 @@ angular.module('mm', ['ionic', 'mm.core', 'mm.core.comments', 'mm.core.contentli
         }
         if (window.StatusBar) {
             StatusBar.styleDefault();
-        }
     });
 }]);
 
@@ -71954,15 +71953,15 @@ angular.module('mm.addons.mod_workshop')
 angular.module('mm.core')
 
 .constant('mmCoreConfigConstants', {
-    "app_id" : "com.moodle.moodlemobile",
-    "appname": "Moodle Mobile",
+    "app_id" : "com.desire2elearning",
+    "appname": "D2el",
     "desktopappname": "Moodle Desktop",
     "versioncode" : "34200",
     "versionname" : "3.4.2",
     "cache_expiration_time" : 300000,
     "default_lang" : "en",
     "languages": {"ar": "عربي", "en": "English"},
-    "wsservice" : "moodle_mobile_app",
+    "wsservice" : "D2el",
     "wsextservice" : "local_mobile",
     
     "gcmpn": "694767596569",
