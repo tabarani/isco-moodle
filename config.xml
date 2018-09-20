@@ -11,8 +11,8 @@
         desire official app
     </description>
 
-    <author href="http://moodle.com" email="mobile@moodle.com">
-        Moodle Mobile team
+    <author href="http://isco.com" email="innovative@isco.com">
+        ISCO Development Team
     </author>
 
     <edit-config target="CFBundleShortVersionString" file="*-Info.plist" mode="merge">
