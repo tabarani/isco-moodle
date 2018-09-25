@@ -71954,8 +71954,8 @@ angular.module('mm.addons.mod_workshop')
 angular.module('mm.core')
 
 .constant('mmCoreConfigConstants', {
-    "app_id" : "com.moodle.moodlemobile",
-    "appname": "Moodle Mobile",
+    "app_id" : "sd.d2el.elearning",
+    "appname": "D2EL",
     "desktopappname": "Moodle Desktop",
     "versioncode" : "34200",
     "versionname" : "3.4.2",
@@ -71966,8 +71966,8 @@ angular.module('mm.core')
     "wsextservice" : "local_mobile",
     
     "gcmpn": "694767596569",
-    "customurlscheme": "moodlemobile",
-    "siteurl": "https://desire2elearning.com/moodle",
+    "customurlscheme": "desire2elearning",
+    "siteurl": "https://d2el.com",
     "multisitesdisplay": "select",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "false",

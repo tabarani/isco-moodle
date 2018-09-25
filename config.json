@@ -1,10 +1,6 @@
 {
-<<<<<<< HEAD
     "app_id" : "sd.d2el.elearning",
     "appname": "D2EL",
-=======
-    "app_id" : "c.d.e",
->>>>>>> f061dae73f1017c96aef7d850308382e9b7b4f93
     "desktopappname": "D2EL Desktop",
     "versioncode" : "2023",
     "versionname" : "3.4.2",
