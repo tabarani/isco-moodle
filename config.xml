@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget 
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        app_id        = "com.desire2elearning"
+        app_id        = "sd.d2el.elearning"
         versionCode = "342000"
         version   = "3.4.2">
     <name>D2EL</name>
 
     <description>
-        desire official app
+        Desire official app
     </description>
 
     <author href="http://isco.com" email="innovative@isco.com">
